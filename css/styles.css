@@ -43,6 +43,10 @@ html {
   padding-top: 20px;
 }
 
+#sidebarname {
+  color: whitesmoke
+  
+}
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
