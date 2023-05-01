@@ -16,3 +16,35 @@ html {
 .centered {
     text-align: center;
 }
+#main {
+    top: 0;
+    left: 0;
+}
+
+#main,
+#main tr td {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    border-collapse: collapse;
+    float: left;
+    table-layout: fixed;
+}
+
+#navtd {
+    width: 270px;
+    height: 100vw;
+    background-color: #4788cf;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#about {
+    width: calc(100vw - 290px);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
