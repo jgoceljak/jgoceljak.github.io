@@ -1,0 +1,18 @@
+html {
+    color: #1c1c1c;
+    font-size: 18px;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: .04em;
+    scroll-behavior: smooth;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.centered {
+    text-align: center;
+}
