@@ -44,8 +44,9 @@ html {
 }
 
 #sidebarname {
+  margin-left: 20px;
   color: whitesmoke
-  
+
 }
 
 .sidenav a {
