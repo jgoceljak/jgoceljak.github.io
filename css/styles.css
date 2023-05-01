@@ -31,20 +31,23 @@ html {
     table-layout: fixed;
 }
 
-#navtd {
-    width: 270px;
-    height: 100vw;
-    background-color: #4788cf;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 20px;
 }
 
-#about {
-    width: calc(100vw - 290px);
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 0;
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
 }
