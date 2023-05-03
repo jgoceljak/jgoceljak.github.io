@@ -38,7 +38,7 @@ html {
   z-index: 1; 
   top: 0; 
   left: 0;
-  background-color: #070024; 
+  background-color: #173753; 
   overflow-x: hidden; 
   padding-top: 20px;
 }
@@ -59,4 +59,23 @@ html {
 
 .sidenav a:hover {
   color: #ffffff;
+}
+
+.aboutmeheader {
+  text-align: center;
+  padding-top: 3%;
+  background-color: #D8D2E1;
+  padding-bottom: 3%
+}
+
+.sociallogo {
+  width: 80px;
+  height: 80px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+.socials {
+  display: inline-block;
 }
